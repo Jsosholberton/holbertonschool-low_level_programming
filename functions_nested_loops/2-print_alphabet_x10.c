@@ -10,7 +10,7 @@ int abc;
 int n = 1;
 while (n++ <= 10)
 {
-for(abc = 'a'; abc <= 'z'; abc++)
+for (abc = 'a'; abc <= 'z'; abc++)
 _putchar(abc);
 _putchar('\n');
 }
