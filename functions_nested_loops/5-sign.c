@@ -3,6 +3,7 @@
  * print_sing - print the sing of the digit
  * @n: digit variable
  *
+ * return -  1 if is positive, 0 if is zero, and -1 if is negative
  *
  */
 int print_sign(int n)
