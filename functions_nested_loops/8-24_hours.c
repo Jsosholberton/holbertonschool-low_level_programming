@@ -1,8 +1,6 @@
 #include "main.h"
 /**
  * jack_bauer - time of oclock 00:00 -> 23:59
- * @h: hours
- * @m: minuts
  *
  * Description: print the time minute to minute until 23:59
  * header: print the response
