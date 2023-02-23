@@ -4,7 +4,7 @@
  * @c: is a variable
  *
  * Description: if the character is a lleter print 1, else 0
- * header return 1 if is letter, 0 if not
+ * _isalpha - return 1 if is letter, 0 if not
  * Return -  1 if is true 0 if is false
  */
 int _isalpha(int c)
