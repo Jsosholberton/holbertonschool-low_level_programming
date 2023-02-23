@@ -3,7 +3,7 @@
  * print_sign - print the sing of the digit
  * @n: digit variable
  *
- * Description: print if is positive + and return 1, if is negative print - and return -1, if is 0 print 0 and return 0
+ * Description: print the sign of a variable
  * header:  1 if is positive, 0 if is zero, and -1 if is negative
  * Return: return 1 if is positive, -1 if is negative, 0 if is 0
  */
