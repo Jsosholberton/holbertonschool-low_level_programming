@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * add - addition
- * @a: variable 1, @b: variable 2.
+ * @a: variable 1; @b: variable 2.
  *
  * Return: return the result
  */
