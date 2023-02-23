@@ -1,10 +1,11 @@
 #include "main.h"
 /**
- *_print_last_digit: print the last digit
- *@r: variable initial
- *@t: variable positive
- *_putchar: print the last digit
- *return: ever 0
+ * _print_last_digit - print the last digit
+ * @r: variable initial ; @t: digit
+ *
+ * Description: print the last digit of a variables
+ * header: view the command
+ * Return: ever t as response
  */
 int print_last_digit(int r)
 {
