@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _isalpha - return 1 if is lowercase or uppercase
+ * _isalpha - 1 and 0
  * @c: is a variable
  *
- * Description: if the character is a lleter print 1, else 0
- * _isalpha - return 1 if is letter, 0 if not
- * Return -  1 if is true 0 if is false
+ * Description: if the character is a lleter return 1, else 0
+ * header: _isalpha return 1 if is true, 0 if is false
+ * Return: return 1 if is true 0 if is false
  */
 int _isalpha(int c)
 {
