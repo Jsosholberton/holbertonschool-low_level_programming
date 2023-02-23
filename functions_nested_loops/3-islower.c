@@ -3,7 +3,9 @@
  * _islower - returns 1 if c is lowercase.
  * @c: variable.
  *
- * return: 1 if is lowercase, if no 0.
+ * Description: print 1 if the variable are letter lowercase
+ * header - descrition
+ * Return: 1 if is lowercase, if no 0.
  */
 int _islower(int c)
 {
