@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _abs: print the valor absolute.
+ * _abs - print the valor absolute.
  * @r: is the variable usade.
  *
  * Description: return the valor absolute
