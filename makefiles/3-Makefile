@@ -9,10 +9,10 @@ all: $(OBJ)
 clean:
 	rm -f *~
 oclean:
-	rm -f main.o school.o
+	rm -f $(OBJ)
 fclean:
 	rm -f *~
-	rm -f main.o school.o
+	rm -f $(OBJ)
 re:
 	$(oclean)
 	$(all)
