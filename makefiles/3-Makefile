@@ -1,8 +1,8 @@
 NAME= school
 CC= gcc
 SRC= school.c main.c
-OBJ= .o
-RM= Clean
+OBJ= $(SRC:.c=.o)
+RM= clean
 
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
