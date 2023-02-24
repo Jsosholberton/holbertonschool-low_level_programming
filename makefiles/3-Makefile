@@ -12,7 +12,7 @@ oclean:
 	$(RM) -f $(OBJ)
 fclean:
 	$(RM) -f *~
-	rm -f $(OBJ)
+	$(RM) -f $(OBJ)
 re:
 	$(oclean)
 	$(all)
