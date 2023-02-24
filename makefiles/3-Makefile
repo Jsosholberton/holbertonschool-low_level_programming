@@ -1,0 +1,8 @@
+NAME= school
+CC= gcc
+SRC= school.c main.c
+OBJ= school.o main.o
+RM= Clean
+
+all:
+	
