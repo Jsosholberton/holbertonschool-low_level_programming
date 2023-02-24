@@ -14,5 +14,5 @@ fclean:
 	$(RM) -f *~ $(NAME)
 	$(RM) -f $(OBJ)
 re:
-	$(fclean)
+	$(oclean)
 	$(all)
