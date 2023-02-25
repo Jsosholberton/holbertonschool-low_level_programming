@@ -15,7 +15,7 @@ for (d = 0; d < n; d++)
 for (esp = 0; esp < d; esp++)
 _putchar(' ');
 _putchar('\\');
-if (d == n -1)
+if (d == n - 1)
 continue;
 _putchar('\n');
 }
