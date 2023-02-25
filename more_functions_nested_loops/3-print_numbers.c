@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * print_numbers - print the number from 0 to 9
- * @n: varibale
  *
  * Return: always 0
  *
