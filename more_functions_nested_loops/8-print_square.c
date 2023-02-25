@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_square - print # n times in large and weige
- * @n: times to print lxl
+ * @size: times to print lxl
  *
  * Return: no data
  */
@@ -14,7 +14,7 @@ for (h = 0; h < size; h++)
 {
 for (l = 0; l < size; l++)
 _putchar ('#');
-if (h == size -1)
+if (h == size - 1)
 continue;
 _putchar('\n');
 }
