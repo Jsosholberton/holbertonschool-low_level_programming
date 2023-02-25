@@ -17,7 +17,7 @@ else if ((n % 5) == 0)
 printf("Buzz");
 else
 printf("%d", n);
-if (num == 100)
+if (n == 100)
 continue;
 printf(" ");
 }
