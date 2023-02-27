@@ -3,7 +3,6 @@
  * swap_int - swaps the values of two integers.*
  * @a: variable 1
  * @b: variable 2
- * @c: variable temp
  *
  * Return: always 0
  */
