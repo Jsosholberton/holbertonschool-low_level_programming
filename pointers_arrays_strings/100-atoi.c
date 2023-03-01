@@ -19,6 +19,6 @@ while (*s && (*s >= '0' && *s <= '9'))
 num = num * 10 + (*s - '0');
 s++;
 }
-resp = num * sig;
+resp = (num * sig);
 return (resp);
 }
