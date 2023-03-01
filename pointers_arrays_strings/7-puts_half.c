@@ -7,7 +7,7 @@
 void puts_half(char *str)
 {
 int c = 0, n, t;
-while (str[c])
+while (str[c] != '\0')
 {
 c++;
 }
