@@ -19,6 +19,7 @@ n = c / 2;
 else
 {
 n = (c - 1) / 2;
+n++;
 }
 while (n < c)
 {
