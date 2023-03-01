@@ -6,9 +6,10 @@
  */
 void puts_half(char *str)
 {
-int c = 0, n, t;
-while (str[c] != '\0')
+int c, n, t;
+for (c = 0; str[c] != '\0'; c++)
 {
+;
 c++;
 }
 t = c % 2;
