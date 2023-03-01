@@ -7,7 +7,7 @@
  */
 int _atoi(char *s)
 {
-float sig = 1, num = 0;
+int sig = 1, num = 0, resp;
 while (*s && (*s < '0' || *s > '9'))
 {
 if (*s == '-')
@@ -19,5 +19,6 @@ while (*s && (*s >= '0' && *s <= '9'))
 num = num * 10 + (*s - '0');
 s++;
 }
-return (num * sig);
+resp = num * sig;
+return (resp);
 }
