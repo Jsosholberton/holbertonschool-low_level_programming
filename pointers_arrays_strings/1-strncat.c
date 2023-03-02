@@ -13,9 +13,10 @@ while (*dest)
 {
 dest++;
 }
-while (*src & n--)
+while (*src && n--)
 {
 *dest++ = *src++;
 }
+*dest = '\0';
 return (tmp);
 }
