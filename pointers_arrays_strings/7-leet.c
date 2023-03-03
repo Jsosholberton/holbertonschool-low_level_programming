@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *leet - encodes a string into 1337
- *@str - string
+ *@str: string
  *
  * Return: the string encode
  */
@@ -22,6 +22,7 @@ return (str);
 }
 
 /*
+ *
 {
 int c = 0;
 while (str[c])
