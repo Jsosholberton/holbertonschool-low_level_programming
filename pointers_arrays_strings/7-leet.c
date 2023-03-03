@@ -7,6 +7,22 @@
  */
 char *leet(char *str)
 {
+int cod1 = 0, cod2;
+char letr[8] = {'0', 'L', '?', 'E', 'A', '?', '?', 'T'};
+while (str[cod1])
+{
+for (cod2 = 0; cod2 <= 7; cod2++)
+{
+if (str[cod1] == letr[cod2] || str[cod1] - 32 == letr[cod2])
+str[cod1] = cod2 + '0';
+}
+cod1++;
+}
+return (str);
+}
+
+/*
+{
 int c = 0;
 while (str[c])
 {
@@ -24,3 +40,4 @@ c++;
 }
 return(str);
 }
+*/
