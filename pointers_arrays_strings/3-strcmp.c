@@ -9,7 +9,7 @@
 int _strcmp(char *s1, char *s2)
 {
 int c = 0, result = 0;
-while (*s1++ != '\0' && *s2++ != '\0')
+while (s1[c] && s2[c] != '\0')
 {
 result += s1[c] - s2[c];
 c++;
