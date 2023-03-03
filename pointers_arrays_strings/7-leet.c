@@ -8,7 +8,7 @@
 char *leet(char *str)
 {
 int cod1 = 0, cod2;
-char letr[8] = {'0', 'L', '?', 'E', 'A', '?', '?', 'T'};
+char letr[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 while (str[cod1])
 {
 for (cod2 = 0; cod2 <= 7; cod2++)
