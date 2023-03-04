@@ -3,7 +3,7 @@
  * _memcpy -copies memory area
  * @dest: destiny
  * @src: source
- * @n: n 
+ * @n: n
  * Return: dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
