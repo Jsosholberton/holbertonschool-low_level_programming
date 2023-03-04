@@ -16,8 +16,8 @@ c2 = 0;
 i = 0;
 while (i < size)
 {
-c1 = c1 + *(a + i * size + i);
-c2 = c2 + *(a + i * size + size - i - 1);
+c1 = c1 + *(a + i *size + i);
+c2 = c2 + *(a + i *size + size - i - 1);
 i++;
 }
 printf("%i, %i\n", c1, c2);
