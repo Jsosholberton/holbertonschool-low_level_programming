@@ -13,5 +13,5 @@ if (*s)
 c++;
 c += _strlen_recursion(s + 1);
 }
-return(c);
+return (c);
 }
