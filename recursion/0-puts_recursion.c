@@ -7,8 +7,11 @@
  */
 void _puts_recursion(char *s)
 {
-int c;
-for ( c = 0; s[c] != '\0'; c++)
-_putchar(s[c]);
-_putchar('\n');
+  if (*s != '\0')
+    {
+  _putchar(*s);
+  _puts_recursion(s + 1);
+    }
+  else if (*s == '\0')
+    _putchar ('\n');
 }
