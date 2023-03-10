@@ -4,7 +4,7 @@
  * @s: The string to be searched
  * @accept: The set of bytes to be searched for
  *
- * Return: a pointer to the matched byte if a set is matced
+ * Return: a pointer to the matched byte if a set is match
  */
 char *_strpbrk(char *s, char *accept)
 {
