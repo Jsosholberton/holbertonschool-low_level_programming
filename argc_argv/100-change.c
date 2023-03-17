@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
+ * main - check the code
+ * @argc: num of arguments
+ * @argv: argumentes
  *
- *
+ * Return: 1 if error
  */
 int main(int argc, char *argv[])
 {
@@ -17,7 +20,7 @@ int main(int argc, char *argv[])
 	cents = atoi(argv[1]);
 	if (cents < 0)
 	{
-		printf ("0\n");
+		printf("0\n");
 		return (0);
 	}
 	count += (cents / 25);
