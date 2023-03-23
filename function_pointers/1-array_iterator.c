@@ -1,6 +1,6 @@
 #include "function_pointers.h"
 /**
- * array_itenator - executes a function given as a parameter
+ * array_iterator - executes a function given as a parameter
  * @array: array to print
  * @size: size of array
  * @action: pointer to use
