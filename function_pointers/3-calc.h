@@ -1,12 +1,8 @@
-#ifndef cal_h
-#define cal_h
-/**
- *This file should contain all the function prototypes
- */
-
+#ifndef calc_h
+#define calc_h
 /**
  * struct op - Struct op
- *
+ * op_t - alias
  * @op: The operator
  * @f: The function associated
  */
