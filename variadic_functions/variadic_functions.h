@@ -17,8 +17,9 @@ void print_str(va_list arg);
 
 typedef struct printer
 {
-	char *symbol;
-	void (*print)(va_list arg);
+	char *structure;
+	void (*print)(va_list types);
+
 } printer;
 
 #endif
